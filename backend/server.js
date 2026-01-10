@@ -255,7 +255,8 @@ app.get('/health', (req, res) => {
     uptime: process.uptime()
   });
 });
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
-  console.log("✅ Node server running on http://localhost:5000");
+  console.log(`Server running on port ${PORT}`);
 });
