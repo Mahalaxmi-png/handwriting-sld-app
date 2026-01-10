@@ -247,6 +247,15 @@ app.post("/extract", async (req, res) => {
   }
 });
 
-app.listen(5000, () => {
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
+  });
+});
+
+app.listen(PORT, () => {
   console.log("✅ Node server running on http://localhost:5000");
 });
