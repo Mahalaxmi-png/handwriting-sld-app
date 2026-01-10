@@ -115,3 +115,8 @@ venv/
 # Temporary files
 *.tmp
 *.temp
+
+# Allow Railway configuration files
+!nixpacks.toml
+!railway.toml
+!Procfile
