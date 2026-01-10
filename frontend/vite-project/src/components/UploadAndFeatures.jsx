@@ -47,7 +47,7 @@ export default function UploadAndFeatures() {
       }
       const base64 = btoa(binary);
 
-      const res = await fetch("http://localhost:5000/extract", {
+      const res = await fetch("https://handwriting-sld-app.up.railway.app/extract", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ imageBase64: base64 }),

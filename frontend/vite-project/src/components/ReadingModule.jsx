@@ -119,7 +119,7 @@ export default function ReadingModule() {
   function fetchWords(targetLevel) {
     setLoadingWords(true);
     setLoadError("");
-    fetch(`http://localhost:5000/vocab/${targetLevel}`)
+    fetch(`https://handwriting-sld-app.up.railway.app/vocab/${targetLevel}`)
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Failed to fetch vocabulary: ${res.status}`);
