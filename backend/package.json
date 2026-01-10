@@ -4,8 +4,12 @@
   "description": "",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node server.js",
+    "build": "echo 'No build step needed for Node.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
