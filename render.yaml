@@ -3,15 +3,6 @@ services:
     name: handwriting-sld-app-backend
     env: node
     plan: free
+    rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
-    envVars:
-      - key: GOOGLE_APPLICATION_CREDENTIALS
-        value: file:./sld-dys-9d1abe88a4a5.json
-      - key: NODE_ENV
-        value: production
-      - key: PORT
-        value: 5000
-    region: oregon
-    branch: main
-    rootDir: backend
