@@ -1,0 +1,64 @@
+================================================================================
+  HANDWRITING DYSLEXIA ANALYZER - QUICK START GUIDE
+================================================================================
+
+📋 COMMANDS TO RUN (Copy & Paste in Order)
+==========================================
+
+Open 3 separate PowerShell/Command Prompt windows and run these commands:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TERMINAL 1 - Python Flask API (Port 6000)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cd "C:\Users\D V Reddy\major_project (3)\major_project\handwriting-sld-app\backend"
+py predict_api.py
+
+Expected output: "Running on http://127.0.0.1:6000"
+✅ Keep this window open!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TERMINAL 2 - Node.js Backend (Port 5000)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cd "C:\Users\D V Reddy\major_project (3)\major_project\handwriting-sld-app\backend"
+npm start
+
+Expected output: "✅ Node server running on http://localhost:5000"
+✅ Keep this window open!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TERMINAL 3 - Frontend React App
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+cd "C:\Users\D V Reddy\major_project (3)\major_project\handwriting-sld-app\frontend\vite-project"
+npm run dev
+
+Expected output: "Local: http://localhost:5173/"
+✅ Open this URL in your browser!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 IMPORTANT NOTES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Start servers in THIS ORDER: Flask → Node → Frontend
+2. ALL THREE servers must be running at the same time
+3. If you see "Server not reachable" error:
+   - Check Terminal 1 (Flask) is running
+   - Check Terminal 2 (Node) is running
+   - Look for error messages in those terminals
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 EASIEST WAY: Double-click START_SERVERS.bat
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+================================================================================
+
+
+
+

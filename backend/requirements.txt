@@ -1,0 +1,13 @@
+flask
+flask-cors
+numpy
+joblib
+shap
+textblob
+language-tool-python
+jellyfish
+matplotlib
+seaborn
+pandas
+scikit-learn
+xgboost
