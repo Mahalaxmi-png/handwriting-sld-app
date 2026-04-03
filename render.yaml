@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: handwriting-sld-app-backend
-    env: node
-    plan: free
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: node server.js
